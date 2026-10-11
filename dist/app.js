@@ -25,3 +25,14 @@ document.getElementById('language').addEventListener('click',()=>{
 document.getElementById('clearDemo').addEventListener('click',()=>{input.value='';updateStatus();input.focus();});
 theme.addEventListener('click',()=>{editor.classList.toggle('dark');updateThemeLabel();});
 updateThemeLabel();
+
+// Share the app's approved release manifest; keep the existing download as a quiet fallback.
+fetch('./release.json', {cache:'no-cache'}).then(response=>{
+ if(!response.ok) throw new Error('No release metadata');
+ return response.json();
+}).then(release=>{
+ if(release.applicationId==='com.linko.lite.offline' && Number.isInteger(release.versionCode) && release.versionCode>0 &&
+  ['stable','beta'].includes(release.channel) && /^https:\/\/github\.com\/djfan\/linko-lite\/releases\/download\/v[0-9A-Za-z.-]+\/linko-lite\.apk$/.test(release.downloadUrl)){
+  document.querySelector('.hero-copy .button').href=release.downloadUrl;
+ }
+}).catch(()=>{});
