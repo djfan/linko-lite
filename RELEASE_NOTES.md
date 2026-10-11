@@ -1,3 +1,3 @@
-Tap the small Linko logo to refresh your notes.
+The Linko book gently opens and turns its pages while you refresh.
 
-Quiet feedback, with your place in the list preserved.
+A more balanced toolbar, with the same quiet capture.
