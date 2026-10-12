@@ -1,3 +1,3 @@
-Notes open straight into writing, with quieter transitions and direct pin and delete controls.
+New versions now get one quiet reminder, with View and Dismiss. Tap the book to check while refreshing your notes.
 
-Pinned notes stay first; the rest follow your latest edits.
+The book opens and closes more quickly.
