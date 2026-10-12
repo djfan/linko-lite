@@ -1,1 +1,1 @@
-Every refresh now completes a full book animation, even when syncing finishes immediately. Your notes update as soon as sync completes.
+首次使用引导的节奏更从容，开场书本停留更清楚，文字、声波与笔记之间的转换更连贯。
