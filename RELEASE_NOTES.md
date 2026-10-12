@@ -1,3 +1,3 @@
-The Linko book gently opens and turns its pages while you refresh.
+Notes open straight into writing, with quieter transitions and direct pin and delete controls.
 
-A more balanced toolbar, with the same quiet capture.
+Pinned notes stay first; the rest follow your latest edits.
