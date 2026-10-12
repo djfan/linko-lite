@@ -1,9 +1,9 @@
 {
-  "versionCode": 26,
-  "versionName": "0.7.11",
+  "versionCode": 27,
+  "versionName": "0.7.12",
   "applicationId": "com.linko.lite.offline",
   "channel": "beta",
-  "downloadUrl": "https://github.com/djfan/linko-lite/releases/download/v0.7.11/linko-lite.apk",
-  "sha256": "745e6c3cced220a86465596ee1b576942ab0c3440608578db09c14cc653dcdeb",
-  "bytes": 24105523
+  "downloadUrl": "https://github.com/djfan/linko-lite/releases/download/v0.7.12/linko-lite.apk",
+  "sha256": "8b2687608de99de61def14dee4db06d2aa8be66c24b435540a9193e62b9eadae",
+  "bytes": 24138291
 }
