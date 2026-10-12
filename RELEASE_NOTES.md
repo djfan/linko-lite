@@ -1,1 +1,3 @@
-首次使用引导的节奏更从容，开场书本停留更清楚，文字、声波与笔记之间的转换更连贯。
+提示条现在更容易辨认，浅色与深色模式都有清晰、克制的层次。文字操作支持大字号换行。
+
+Notices are easier to distinguish in light and dark themes, with quiet contrast and text actions that wrap at larger sizes.
