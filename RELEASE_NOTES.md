@@ -1,3 +1,1 @@
-New versions now get one quiet reminder, with View and Dismiss. Tap the book to check while refreshing your notes.
-
-The book opens and closes more quickly.
+首次打开增加简洁的使用引导，介绍自动保存、语音转文字和点书本刷新。已有用户仍直接进入笔记。
