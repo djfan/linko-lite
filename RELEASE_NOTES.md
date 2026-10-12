@@ -1,1 +1,1 @@
-首次打开增加简洁的使用引导，介绍自动保存、语音转文字和点书本刷新。已有用户仍直接进入笔记。
+Every refresh now completes a full book animation, even when syncing finishes immediately. Your notes update as soon as sync completes.
