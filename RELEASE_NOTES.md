@@ -1,3 +1,1 @@
-提示条现在更容易辨认，浅色与深色模式都有清晰、克制的层次。文字操作支持大字号换行。
-
-Notices are easier to distinguish in light and dark themes, with quiet contrast and text actions that wrap at larger sizes.
+About 新增「快速了解」入口，可重看三段功能演示。结束、跳过或返回后回到 About，首次使用流程保持不变。
