@@ -4,7 +4,7 @@
  const host = 'https://us.i.posthog.com';
  const storageKey = 'linko-lite-statistics-disabled';
  const toggle = document.getElementById('statistics');
- const isTest = location.hostname !== 'djfan.github.io' || !location.pathname.startsWith('/linko-lite/');
+ const isTest = new URLSearchParams(location.search).get('analytics_test') === '1' || location.hostname !== 'djfan.github.io' || !location.pathname.startsWith('/linko-lite/');
  let disabled = false;
  try { disabled = localStorage.getItem(storageKey) === 'true'; } catch (_) {}
  let client = null;
