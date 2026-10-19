@@ -1,3 +1,3 @@
-新增可关闭的使用统计，不采集笔记内容或录音。
+简化设置，移除使用统计开关。
 
-Adds optional usage statistics without collecting note content or recordings.
+Simplifies settings by removing the usage statistics switch.
