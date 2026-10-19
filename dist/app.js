@@ -1,5 +1,5 @@
 const en = {
-headline:'Keep the thought.<br>Let the rest go.',try:'Download for Android',heroNote:'Write offline. Saved as you go.',note1:'Clarity can wait.<br>Capture the thought.',note2:'Less to do.<br>More to notice.',note3:'Take a walk.<br>Choose the trees.',note4:'Leave the weekend open.',release:'Android 8+ · Beta',installation:'Installation ↗'
+headline:'Keep the thought.<br>Let the rest go.',try:'Download for Android',heroNote:'Write offline. Saved as you go.',note1:'Clarity can wait.<br>Capture the thought.',note2:'Less to do.<br>More to notice.',note3:'Take a walk.<br>Choose the trees.',note4:'Leave the weekend open.',release:'Android 8+ · Beta',installation:'Installation ↗',privacy:'Privacy'
 };
 const elements=[...document.querySelectorAll('[data-i18n]')];
 const zh=Object.fromEntries(elements.map(element=>[element.dataset.i18n,element.innerHTML]));

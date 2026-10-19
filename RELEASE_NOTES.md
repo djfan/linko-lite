@@ -1,1 +1,3 @@
-About 新增「快速了解」入口，可重看三段功能演示。结束、跳过或返回后回到 About，首次使用流程保持不变。
+新增可关闭的使用统计，不采集笔记内容或录音。
+
+Adds optional usage statistics without collecting note content or recordings.
