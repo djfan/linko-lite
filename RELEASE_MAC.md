@@ -6,6 +6,13 @@ The Mac app is built in private `djfan/linko-lite-macos` (handbook: `docs/releas
 - Approved Release assets: `Linko-Lite.dmg` and `SHA256SUMS-macos` only. Never commit the dmg, the signing certificate or the Sparkle private key here.
 - Pages files: `dist/appcast.xml` (Sparkle updates, signed) and `dist/release-macos.json` (website button and in-app fallback). Update both from the same release build, after the dmg is anonymously downloadable with the expected checksum. Android's `dist/release.json` is unchanged.
 - Never replace a published dmg under the same version; publish a new version instead.
+- Each release also updates the default Mac download link in `dist/index.html` and `README.md`.
+
+## 0.2 Beta
+
+语音速记：在任何应用里按 ⌃⌥⌘R 开始录音，再按一次保存。新的 macOS 26 风格图标；开始与 Android 相同口径的匿名使用统计。
+
+Voice notes from anywhere with ⌃⌥⌘R; a new macOS 26-style icon; the same anonymous usage statistics as Android.
 
 ## 0.1 Beta
 
