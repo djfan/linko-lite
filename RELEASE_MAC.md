@@ -8,6 +8,12 @@ The Mac app is built in private `djfan/linko-lite-macos` (handbook: `docs/releas
 - Never replace a published dmg under the same version; publish a new version instead.
 - Each release also updates the default Mac download link in `dist/index.html` and `README.md`.
 
+## 0.3 Beta
+
+录音时可以「放弃」，不保存也不留音频。登录过期时，打开或回到应用会自动弹出登录窗口，可选「稍后」。
+
+Discard a recording without keeping anything. When the login has expired, the sign-in window opens by itself on launch or return, with Not now.
+
 ## 0.2 Beta
 
 语音速记：在任何应用里按 ⌃⌥⌘R 开始录音，再按一次保存。新的 macOS 26 风格图标；开始与 Android 相同口径的匿名使用统计。
