@@ -1,5 +1,5 @@
 const en = {
-headline:'Keep the thought.<br>Let the rest go.',try:'Download for Android',heroNote:'Write offline. Saved as you go.',note1:'Clarity can wait.<br>Capture the thought.',note2:'Less to do.<br>More to notice.',note3:'Take a walk.<br>Choose the trees.',note4:'Leave the weekend open.',release:'Android 8+ · Beta',installation:'Installation ↗',privacy:'Privacy'
+headline:'Keep the thought.<br>Let the rest go.',try:'Download for Android',tryMac:'Download for Mac',macNote:'macOS 14+ · <a href="https://github.com/djfan/linko-lite/blob/main/INSTALL.md#mac">Installation</a> for first launch',heroNote:'Write offline. Saved as you go.',note1:'Clarity can wait.<br>Capture the thought.',note2:'Less to do.<br>More to notice.',note3:'Take a walk.<br>Choose the trees.',note4:'Leave the weekend open.',release:'Android 8+ · Beta',installation:'Installation ↗',privacy:'Privacy'
 };
 const elements=[...document.querySelectorAll('[data-i18n]')];
 const zh=Object.fromEntries(elements.map(element=>[element.dataset.i18n,element.innerHTML]));
@@ -12,7 +12,7 @@ document.getElementById('language').addEventListener('click',()=>{
  document.querySelector('.brand').setAttribute('aria-label',language==='zh'?'Linko Lite 首页':'Linko Lite home');
  document.querySelector('.phone').setAttribute('aria-label',language==='zh'?'Linko Lite 概念界面':'Linko Lite concept interface');
  document.title=language==='zh'?'Linko Lite — 留住念头，其余留白':'Linko Lite — Keep the thought. Let the rest go.';
- document.querySelector('meta[name="description"]').content=language==='zh'?'Linko Lite，Linko 的轻量笔记本。离线写，自动存。留住念头，其余留白。':'Linko, with less. A quiet Android notebook. Write offline. Saved as you go.';
+ document.querySelector('meta[name="description"]').content=language==='zh'?'Linko Lite，Linko 的轻量笔记本。离线写，自动存。留住念头，其余留白。':'Linko, with less. A quiet notebook for Android and Mac. Write offline. Saved as you go.';
 });
 
 // Share the app's approved release manifest; keep the existing download as a quiet fallback.
@@ -22,6 +22,17 @@ fetch('./release.json', {cache:'no-cache'}).then(response=>{
 }).then(release=>{
  if(release.applicationId==='com.linko.lite.offline' && Number.isInteger(release.versionCode) && release.versionCode>0 &&
   ['stable','beta'].includes(release.channel) && /^https:\/\/github\.com\/djfan\/linko-lite\/releases\/download\/v[0-9A-Za-z.-]+\/linko-lite\.apk$/.test(release.downloadUrl)){
-  document.querySelector('.hero-copy .button').href=release.downloadUrl;
+  document.getElementById('android-download').href=release.downloadUrl;
+ }
+}).catch(()=>{});
+
+// Same rules as the Mac app's update check; an unexpected manifest keeps the default link.
+fetch('./release-macos.json', {cache:'no-cache'}).then(response=>{
+ if(!response.ok) throw new Error('No Mac release metadata');
+ return response.json();
+}).then(release=>{
+ if(release.bundleId==='com.linko.lite.mac' && Number.isInteger(release.build) && release.build>0 &&
+  ['stable','beta'].includes(release.channel) && /^https:\/\/github\.com\/djfan\/linko-lite\/releases\/download\/mac-v[0-9A-Za-z.-]+\/Linko-Lite\.dmg$/.test(release.downloadUrl)){
+  document.getElementById('mac-download').href=release.downloadUrl;
  }
 }).catch(()=>{});

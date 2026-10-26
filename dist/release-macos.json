@@ -1,0 +1,10 @@
+{
+  "build" : 1,
+  "bundleId" : "com.linko.lite.mac",
+  "bytes" : 21072177,
+  "channel" : "beta",
+  "downloadUrl" : "https://github.com/djfan/linko-lite/releases/download/mac-v0.1/Linko-Lite.dmg",
+  "notesUrl" : "https://github.com/djfan/linko-lite/releases/tag/mac-v0.1",
+  "sha256" : "f68a1a25936fb687dc50886e7f341fdc808febedae746ee1dcba3fddbfbfe098",
+  "version" : "0.1"
+}
