@@ -3,14 +3,14 @@
     <channel>
         <title>Linko Lite</title>
         <item>
-            <title>0.3</title>
-            <pubDate>Mon, 26 Oct 2026 12:18:22 -0400</pubDate>
+            <title>0.4</title>
+            <pubDate>Mon, 26 Oct 2026 12:31:13 -0400</pubDate>
             <link>https://djfan.github.io/linko-lite/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/djfan/linko-lite/releases/tag/mac-v0.3</sparkle:fullReleaseNotesLink>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/djfan/linko-lite/releases/tag/mac-v0.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/djfan/linko-lite/releases/download/mac-v0.3/Linko-Lite.dmg" length="23766305" type="application/octet-stream" sparkle:edSignature="2g5y80L6bwJui6//VnEuFsZMp3JInkJf6NZ+fWQ1pXyndWWrHgE/6VzCqEX1NU2LOCR0fj+U2l/Xes8os4nuAg=="/>
+            <enclosure url="https://github.com/djfan/linko-lite/releases/download/mac-v0.4/Linko-Lite.dmg" length="23768251" type="application/octet-stream" sparkle:edSignature="AxlyYvZQUeI9HCUu3xaANOyN0TOaK9keOmWuet7pbwjIR//DBVWcjuI7TuEwQ4Mxv7r88/FuHQTau/ktQbUoAQ=="/>
         </item>
     </channel>
 </rss>

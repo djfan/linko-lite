@@ -8,6 +8,12 @@ The Mac app is built in private `djfan/linko-lite-macos` (handbook: `docs/releas
 - Never replace a published dmg under the same version; publish a new version instead.
 - Each release also updates the default Mac download link in `dist/index.html` and `README.md`.
 
+## 0.4 Beta
+
+主窗口在前台时，⌃⌥⌘R 直接在主窗口录音页录音，不再弹出小窗。
+
+With the main window in front, ⌃⌥⌘R records on its recording page instead of opening the floating window.
+
 ## 0.3 Beta
 
 录音时可以「放弃」，不保存也不留音频。登录过期时，打开或回到应用会自动弹出登录窗口，可选「稍后」。
